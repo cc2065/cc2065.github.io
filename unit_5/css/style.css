@@ -3,6 +3,9 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 header {
 	text-align: center;
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
 body {
 	background: url("https://learnvest.global.ssl.fastly.net/wp-content/uploads/2014/07/NYC-budget.jpg");
@@ -20,11 +23,17 @@ span {
 }
 nav {
 	text-align: center;
-	padding: 0 10px;
-	color: #7E7A7F;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
 }
 #wrapper {
 	padding-left: 20px;
+}
+aside {
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
 }
 h3 {
 	font-family: 'Playball', cursive;
@@ -32,15 +41,20 @@ h3 {
 }
 #about {
 	width: 680px;
-	padding: 18px 10px;
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
 }
 #projects {
 	width: 680px;
-	padding: 18px 10px;
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
 }
 footer {
-	color:#fff;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
 	font-style: italic;
-	padding-top: 10em;
 	text-align: center;
 }
