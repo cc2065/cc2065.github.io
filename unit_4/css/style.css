@@ -1,9 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import url(https://fonts.googleapis.com/css?family=Playball);
 * { margin:0; padding:0; box-sizing:border-box; }
-body {
+header {
 	text-align: center;
-	background: url("../images/manhattanskyline.jpg");
+}
+body {
+	background: url("https://learnvest.global.ssl.fastly.net/wp-content/uploads/2014/07/NYC-budget.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #000;
@@ -11,10 +13,34 @@ body {
 	font-weight: 400;
 	font-size: 20px;
 }
-h3 { 
+span { 
 	font-family: 'Playball', cursive;
+	font-size: 28px;
+	padding: 15px 15px;
+}
+nav {
+	text-align: center;
+	padding: 0 10px;
+	color: #7E7A7F;
+}
+#wrapper {
+	padding-left: 20px;
+}
+h3 {
+	font-family: 'Playball', cursive;
+	font-size: 27px;
+}
+#about {
+	width: 680px;
+	padding: 18px 10px;
+}
+#projects {
+	width: 680px;
+	padding: 18px 10px;
 }
 footer {
+	color:#fff;
 	font-style: italic;
-	padding: 1em 0;
+	padding-top: 10em;
+	text-align: center;
 }
