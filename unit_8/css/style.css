@@ -16,10 +16,11 @@ body {
 	font-size: 1.5em;
 }
 
-span { 
+span#subheader { 
 	font-family: 'Playball', cursive;
 	font-size: 1.4em;
-	padding: 4em 0em;
+	padding: .4em 0em;
+	display: block;
 }
 
 nav {
@@ -47,16 +48,50 @@ h3 {
 
 #about {
 	width: 680px;
-    padding: 1em 1em;
+    padding: .6em 1em;
 }
 
 #projects {
 	width: 680px;
-	padding: 1em 0;
+	padding: .6em 0;
 }
+
 footer {
 	font-style: italic;
-	text-align: center;
-	padding: 6em 0 1em 0;
+	text-align: left;
+	padding: 7em 2em;
 	color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+	
+	nav a {
+		display: block;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	footer {
+		text-align: center;
+	}
+
+}
+@media only screen and (max-width: 1230px) {
+
+	#about {
+		max-width: 100%;
+	}
+
+	#projects {
+		max-width: 100%;
+		color: #fff;
+	}
+
+	#projects a {
+		color: #27FFE4;
+	}
+
+	footer {
+		padding: 1em;
+	}
 }
