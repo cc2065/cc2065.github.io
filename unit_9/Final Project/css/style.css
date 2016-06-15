@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Playball);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+header {
+	text-align: center;
+}
+
+body {
+	background: url("https://learnvest.global.ssl.fastly.net/wp-content/uploads/2014/07/NYC-budget.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #000;
+	font-family: 'Source Sans Pro', arial, sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+span#subheader { 
+	font-family: 'Playball', cursive;
+	font-size: 1.4em;
+	padding: .4em 0em;
+	display: block;
+}
+
+nav {
+	text-align: center;
+}
+
+nav a { 
+	padding: 1em 1em;
+	color: #000;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FF1D1D;
+}
+
+.wrapper {
+	padding-left: 2px;
+}
+
+h3 {
+	font-family: 'Playball', cursive;
+	font-size: 1.7em;
+}
+
+#about {
+	width: 680px;
+    padding: .6em 1em;
+}
+
+#projects {
+	width: 680px;
+	padding: .6em 0;
+}
+
+footer {
+	font-style: italic;
+	text-align: left;
+	padding: 7em 2em;
+	color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+	
+	nav a {
+		display: block;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	footer {
+		text-align: center;
+	}
+
+}
+@media only screen and (max-width: 1230px) {
+
+	#about {
+		max-width: 100%;
+	}
+
+	#projects {
+		max-width: 100%;
+		color: #fff;
+	}
+
+	#projects a {
+		color: #27FFE4;
+	}
+
+	footer {
+		padding: 1em;
+	}
+}
